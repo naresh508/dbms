@@ -1,0 +1,6 @@
+Q1="SELECT COUNT(id) from Movie WHERE year=1991;"
+Q2="SELECT MIN(rank) from Movie;"
+Q3="SELECt MAX(rank) from Movie WHERE year=2000;"
+Q4="SELECt AVG(rank) from Movie WHERE year=2000;"
+Q5="SELECT COUNT(DISTINCT year) from Movie;"
+Q6="SELECT MIN(year),MAX(year) from Movie;"
